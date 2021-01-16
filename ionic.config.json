@@ -1,0 +1,7 @@
+{
+  "name": "hacka",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
