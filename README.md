@@ -24,8 +24,11 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 ```bash
+# Instale o ionic
+$ npm install -g @ionic/cli
+
 # Clone este repositório
-$ git clone <Link do clone>
+$ git clone https://github.com/paulacaroline/Trackes.git
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd nlw1
@@ -53,6 +56,5 @@ $ ionic serve
 - [Angular](https://angular.io/)
 
 <h2>Autor</h2>
-
 ---
 Feito por [Caroline Vitoria](https://www.linkedin.com/in/caroline-pereira-808a9a165/) e [Vitor Hugo](https://www.linkedin.com/in/vitor-hugo-9ba206130/) 👋🏽 Entre em contato!
