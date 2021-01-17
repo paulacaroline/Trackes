@@ -14,8 +14,8 @@
 <p>- [x] Tela de notificação</p>
 <p>- [x] Tela para selecionar trilha (Categorias Ex.: Desenvolvimento, Marketing, Engenharias, etc.)</p>
 <p>- [x] Tela de trilha focada</p>
-<p>- [ ] Tela Vagas</p>
-<p>- [ ] Tela comunidade</p>
+<p>- [x] Tela Vagas</p>
+<p>- [x] Tela comunidade</p>
 <p>- [x] Tela Desafios</p>
 
 ### Pré-requisitos e como rodar a aplicação
