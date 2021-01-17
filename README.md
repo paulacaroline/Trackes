@@ -32,7 +32,6 @@ $ npm install -g @ionic/cli
 $ git clone https://github.com/paulacaroline/Trackes.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd nlw1
 
 # Vá para a pasta server
 $ cd server
