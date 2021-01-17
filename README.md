@@ -55,9 +55,11 @@ $ ionic serve
 - [Ionic](https://ionicframework.com/docs/intro/cli)
 - [Angular](https://angular.io/)
 
-<h2>Autor</h2>
----
-Feito por [Caroline Vitoria](https://www.linkedin.com/in/caroline-pereira-808a9a165/) e [Vitor Hugo](https://www.linkedin.com/in/vitor-hugo-9ba206130/) 👋🏽 Entre em contato!
+<h2>Autores</h2>
+
+Feito por:
+- [Caroline Vitoria](https://www.linkedin.com/in/caroline-pereira-808a9a165/)
+- [Vitor Hugo](https://www.linkedin.com/in/vitor-hugo-9ba206130/)
 
 <h2>Licença</h2>
 
