@@ -37,9 +37,9 @@ $ cd server
 $ npm install
 
 # Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server
+$ ionic serve
 
-# O servidor inciará na porta:8000 - acesse <http://localhost:8000>
+# O servidor inciará na porta:8100 - acesse <http://localhost:8100>
 ```
 <h2>Roadmap</h2>
 
