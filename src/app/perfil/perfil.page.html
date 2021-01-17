@@ -1,0 +1,115 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start" color="primary">
+      <ion-menu-button color="primary"></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="secondary">
+      <ion-button color="secondary" (click)="home()">
+        <ion-icon name="home-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title class="ion-text-wrap">Perfil</ion-title>
+    
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-row>
+      <ion-col size="5" class="ion-no-padding">
+        <ion-card color="dark">
+          <ion-img src="/assets/estudante.png"></ion-img>
+        </ion-card>
+      </ion-col>
+      <ion-col size="7">
+        <ion-item>
+            <ion-text color="dark">
+              <h4>Mariana</h4>
+            </ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-text color="medium-shade">
+            <h6>Nick: Léia</h6>
+          </ion-text>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-card>
+      
+        <ion-col size="6">
+          <ion-card color="dark">
+            <ion-chip color="secondary">
+              <ion-icon name="trophy-outline"></ion-icon>
+              <ion-label>Conquistas</ion-label>
+            </ion-chip>
+            <ion-text class="pontos" color="secondary"> 5 </ion-text>
+          </ion-card>
+        </ion-col>
+        <ion-col size="6">
+          <ion-card color="dark">
+            <ion-chip color="secondary">
+              <ion-icon name="game-controller-outline"></ion-icon>
+              <ion-label>Desafios</ion-label>
+            </ion-chip>
+            <ion-text class="pontos" color="secondary"> 3  </ion-text>
+          </ion-card>
+        </ion-col>
+        <ion-col size="8">
+          <ion-card color="dark">
+            <ion-chip color="secondary">
+              <ion-icon name="analytics-outline"></ion-icon>
+              <ion-label>Rank</ion-label>
+            </ion-chip>
+            <ion-text class="pontos" color="secondary"> 1º </ion-text>
+          </ion-card>
+        </ion-col>
+      
+    </ion-card>
+  </ion-card>
+  <ion-card class="ion-text-center">
+    
+      <ion-text color="dark">Força do perfil: </ion-text>
+      <ion-text color="success"> XP: 8000</ion-text>
+      <ion-card>
+        <ion-item>
+          <ion-card-subtitle>XP:</ion-card-subtitle>
+          <ion-progress-bar class="ion-padding"color="success" value="0.85" buffer="0.85"></ion-progress-bar>
+        </ion-item>
+      </ion-card>
+    <ion-button expand="block" color="primary" shape="round" (click)="chamarTrilha()">
+      <ion-icon name="trail-sign-outline"></ion-icon>
+       Melhore seu perfil
+      <ion-icon name="trail-sign-outline"></ion-icon>
+    </ion-button>
+  </ion-card>
+  
+  <ion-card>
+    <ion-card-content>
+      <ion-item>
+        <ion-label class="ion-text-wrap">
+          
+          <h3>Nome Completo: Mariana Léia Soares</h3>
+          
+          <p>Idade: 28</p>
+          
+          <p>Escolaridade: Superior cursando</p>
+
+          <p>Etnia: Parda</p>
+
+          <p>Gênero: Feminino</p>
+
+          <p>Numero contato: (11)955448800</p>
+
+          <p>CEP: 1812000</p>
+
+          <p>Estado: SP</p>
+
+          <p>Cidade: Mairinque</p>
+
+          <p>Ocupação: Desempregado</p>
+        </ion-label>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,103 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start" color="primary">
+      <ion-menu-button auto-hide="false" color="primary"></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="secondary">
+      <ion-button color="secondary" (click)="home()">
+        <ion-icon name="home-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Seus Desafios</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-title class="ion-text-center">Você já possui desafios</ion-card-title>
+    <ion-item button (click)="testClick()">
+      <ion-thumbnail slot="start">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw==">
+      </ion-thumbnail>
+      <ion-item>
+        <ion-label class="ion-text-wrap">Criar uma página inicial para um site institucional</ion-label>
+      </ion-item>
+    </ion-item>
+    <ion-item>
+      <ion-chip>
+        <ion-icon name="options-outline" color="dark"></ion-icon>
+        <ion-label>Nível: Básico</ion-label>
+      </ion-chip>
+      <ion-label>Status</ion-label>
+      <ion-toggle mode="ios"color="success"></ion-toggle>
+    </ion-item>
+    <ion-row>
+      <ion-col size="4">
+        <ion-chip>
+          <ion-icon name="library-outline" color="dark"></ion-icon>
+          <ion-label>CSS</ion-label>
+        </ion-chip>
+      </ion-col>
+      <ion-col size="4">
+        <ion-chip>
+          <ion-icon name="library-outline" color="dark"></ion-icon>
+          <ion-label>HTML</ion-label>
+        </ion-chip>
+      </ion-col>
+      <ion-col size="4">
+        <ion-chip>
+          <ion-icon name="library-outline" color="dark"></ion-icon>
+          <ion-label>PHP</ion-label>
+        </ion-chip>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+  <ion-card>
+    <ion-item button (click)="testClick()">
+      <ion-thumbnail slot="start">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw==">
+      </ion-thumbnail>
+      <ion-item>
+        <ion-label class="ion-text-wrap">Crie um banco de dados e faça uma conexão com formulário de clientes</ion-label>
+      </ion-item>
+    </ion-item>
+    <ion-item>
+      <ion-chip>
+        <ion-icon name="options-outline" color="dark"></ion-icon>
+        <ion-label>Nível: Intermediário</ion-label>
+      </ion-chip>
+      <ion-label>Status</ion-label>
+      <ion-toggle mode="ios" color="success"></ion-toggle>
+    </ion-item>
+    <ion-row>
+      <ion-col size="4">
+        <ion-chip>
+          <ion-icon name="library-outline" color="dark"></ion-icon>
+          <ion-label>MySQL</ion-label>
+        </ion-chip>
+      </ion-col>
+      <ion-col size="4">
+        <ion-chip>
+          <ion-icon name="library-outline" color="dark"></ion-icon>
+          <ion-label>HTML</ion-label>
+        </ion-chip>
+      </ion-col>
+      <ion-col size="4">
+        <ion-chip>
+          <ion-icon name="library-outline" color="dark"></ion-icon>
+          <ion-label>PHP</ion-label>
+        </ion-chip>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+  <ion-card>
+    <ion-card-title class="ion-text-center">Quero Desbloquear Mais Desafios</ion-card-title>
+    <ion-item>
+      <ion-label>Estude Mais...</ion-label>
+      <ion-icon name="book-outline"></ion-icon>
+    </ion-item>
+    <ion-card class="ion-padding">
+      <ion-card-subtitle color="success" class="ion-text-center">Quanto mais desafios concluídos, mais as empresas irão buscar pelo seu perfil</ion-card-subtitle>
+    </ion-card>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,72 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start" color="primary">
+      <ion-menu-button auto-hide="false" color="primary"></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="secondary">
+      <ion-button color="secondary" (click)="home()">
+        <ion-icon name="home-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>TRILHA FOCADA</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-title class="ion-text-center">Você já possui desafios</ion-card-title>
+    <ion-item button (click)="testClick()">
+      <ion-thumbnail slot="start">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw==">
+      </ion-thumbnail>
+      <ion-item>
+        <ion-label class="ion-text-wrap">Criar uma página inicial para um site institucional</ion-label>
+      </ion-item>
+    </ion-item>
+    <ion-item>
+      <ion-chip>
+        <ion-icon name="options-outline" color="dark"></ion-icon>
+        <ion-label>Nível: Básico</ion-label>
+      </ion-chip>
+      <ion-button (click)="telaDesafios()" slot="end" size="small" color="primary" shape="round" fill="outline">Ver Mais</ion-button>
+    </ion-item>
+  </ion-card>
+  <ion-card>
+    <ion-label>
+      <ion-card-title class="ion-text-center">Você vai decolar com esses cursos
+      </ion-card-title>
+    </ion-label>
+    <ion-card>
+      <ion-img src="/assets/maratona.png"></ion-img>
+      <ion-card-title color="dark" class="ion-text-center">Maratona Dev</ion-card-title>
+      <ion-card-subtitle color="medium-shade" class="ion-text-wrap">Desenvolvedor raiz cresce nos desafios e neste curso, temos vários para você</ion-card-subtitle>
+      <ion-button size="small" color="primary" shape="round" fill="outline">Ver Mais</ion-button>
+    </ion-card>
+  </ion-card>
+  <ion-progress-bar color="dark" value="0.01" buffer="0.01"></ion-progress-bar> 
+  <ion-card>
+    <ion-label>
+      <ion-card-title class="ion-text-center">Tem Evento Rolando
+      </ion-card-title>
+    </ion-label>
+    <ion-card>
+      <ion-img src="/assets/maratona.png"></ion-img>
+      <ion-card-title color="dark" class="ion-text-center">Como monetizar seu conhecimento?!</ion-card-title>
+      <ion-card-subtitle color="medium-shade" class="ion-text-wrap">Um dos objetivos do conhecimento é gerar valor e renda. Saiba como o s</ion-card-subtitle>
+      <ion-button size="small" color="primary" shape="round" fill="outline">Ver Mais</ion-button>
+    </ion-card>
+  </ion-card>
+  <ion-progress-bar color="dark" value="0.01" buffer="0.01"></ion-progress-bar>
+  <ion-card>
+    <ion-label>
+      <ion-card-title class="ion-text-center">Vem com a Comunidade
+      </ion-card-title>
+    </ion-label>
+    <ion-card>
+      <ion-img src="/assets/maratona.png"></ion-img>
+      <ion-card-title color="dark" class="ion-text-center">Eng Dark Side</ion-card-title>
+      <ion-card-subtitle color="medium-shade" class="ion-text-wrap">A força da maior comunidade de engenheiros do Brasil</ion-card-subtitle>
+      <ion-button size="small" color="primary" shape="round" fill="outline">Ver Mais</ion-button>
+    </ion-card>
+  </ion-card>
+</ion-content>
