@@ -55,12 +55,12 @@ $ ionic serve
 - [Ionic](https://ionicframework.com/docs/intro/cli)
 - [Angular](https://angular.io/)
 
-<h2>Autores</h2>
+<h3>Autores</h3>
 
 Feito por:
 - [Caroline Vitoria](https://www.linkedin.com/in/caroline-pereira-808a9a165/)
 - [Vitor Hugo](https://www.linkedin.com/in/vitor-hugo-9ba206130/)
 
-<h2>Licença</h2>
+<h3>Licença</h3>
 
 [LICENÇA PÚBLICA GERAL GNU LESSER](https://opensource.org/licenses/lgpl-3.0.html)
