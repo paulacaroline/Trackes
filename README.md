@@ -6,7 +6,7 @@
 	🚧  Status do Projeto: Em construção...  🚧
 </h3>
 <h4>funcionalidades da aplicação.</h4>
-<p>- [x] Tela Splash</p>
+<p>- [ ] Tela Splash</p>
 <p>- [ ] Tela Login</p>
 <p>- [ ] Tela de cadastro</p>
 <p>- [x] Tela Home</p>
