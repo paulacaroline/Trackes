@@ -44,9 +44,6 @@ $ ionic serve
 
 # O servidor inciará na porta:8100 - acesse <http://localhost:8100>
 ```
-<h2>Roadmap</h2>
-
-<p></p>
 
 <h3> 🛠 Tecnologias </h3>
 
